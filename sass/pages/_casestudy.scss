@@ -1,35 +1,52 @@
-.cs_hero{
-    background-color: #FF6F61;
+.cs_hero {
+  background-image: linear-gradient(#df1d0b42, #df1d0b42), url("../../images/csbg.png");
 }
 
-.cs_hero_inner{
-    background-color: #fff;
+.cs_hero_inner {
+  background-color: #fff;
 }
 
-.cs_hero_title{
-    h3{
-        font-weight: 700 !important;
-        color: #337ab7;
-    }
+.cs_hero_title {
+  h3 {
+    font-weight: 700 !important;
+    color: #337ab7;
+  }
 }
 
-.cs_hero_p{
+.cs_hero_p {
+  h4 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.5rem !important;
+    color: rgb(82, 82, 82);
+  }
+}
 
-    h4{
-        font-size: 2rem;
-    }
-    p{
-        font-size: 1.5rem !important;
-        color: rgb(82, 82, 82);
-    }
+.cs_insight {
+  h3 {
+    font-size: 2rem;
+    color: #337ab7;
+  }
+  h5 {
+    font-size: 2.5rem;
+  }
+}
+
+.cs_sub_title {
+  h4 {
+    font-weight: 600 !important;
+  }
+  p{
+    color: rgb(75, 75, 75);
+  }
 }
 
 .cs_insight{
-    h3{
-        font-size: 2rem;
-        color: #337ab7;
-    }
     h5{
-        font-size: 2.5rem;
+        background-color: rgb(247, 247, 247);
+        color: rgb(73, 73, 73);
+        padding: 1rem;
+        font-weight: 600 !important;
     }
 }

@@ -4,8 +4,17 @@ position: relative;
 }
 
 .brandhead{
-    padding: 7rem 0 !important;
+    padding: 8rem 0 !important;
+    background-image: linear-gradient(#ff7a6e, #df1d0bd7);
+    h2{
+        color: #fff;
+    }
 }
+
+.slidemainbrand {
+    margin-top: -11rem;
+  }
+  
 
 .brandcards_title{
 background-color: rgba(0, 0, 0, 0.705);
