@@ -697,6 +697,11 @@ button:hover,
   font-size: 2rem;
 }
 
+.nav_links:hover {
+  background-color: #f1f1f1;
+  color: #424242 !important;
+}
+
 .wordblock__heading {
   font-weight: 700 !important;
   line-height: 5.5rem;
@@ -832,7 +837,7 @@ a {
 }
 
 .nav_links:hover {
-  color: #ffc933 !important;
+  color: #646464 !important;
 }
 
 .nav_hb {
