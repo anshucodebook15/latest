@@ -1,0 +1,65 @@
+// Carrer
+.carrer_bg{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.493), rgba(255, 255, 255, 0.329)), url("../../images/career.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-position-y: -2rem;
+}
+
+.carrer_link {
+    background-color: #fff;
+    padding: 1.4rem !important;
+    color: rgb(70, 70, 70);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.6rem !important;
+  }
+  
+  .carrer_link--active {
+    background-color: #003c6e;
+    padding: 1.4rem !important;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.6rem !important;
+  }
+  
+  .carrer_desc--content {
+    padding: 1.4rem !important;
+    margin: 0.6rem !important;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background-color: #fff;
+  }
+  
+  .carrer_table-head {
+    width: 30%;
+    padding: 1.5rem !important;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .carrer_table-content {
+    padding: 1.5rem !important;
+  }
+  
+  .carrer_btn {
+    text-align: right;
+  }
+  
+
+  .carerr_apply{
+      border: 1px solid #eee !important;
+      padding: .4rem 2rem;
+      border: 1px solid #eee;
+      background-color: rgb(255, 255, 255);
+      color: rgb(80, 80, 80);
+  }
+
+  .carerr_apply:hover{
+      background-color: rgb(56, 56, 56) !important;
+      color: #eee;
+  }
+
+  .carerr_apply:active{
+      outline: none !important;
+  }
