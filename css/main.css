@@ -687,6 +687,7 @@ button:hover,
 
 .site_header {
   background-color: #fff;
+  z-index: 2000 !important;
 }
 
 .logo {
@@ -723,15 +724,37 @@ button:hover,
 }
 
 .footer_1--links {
-  color: #4d4d4d;
+  color: #d8d8d8;
 }
 
 .footer_1--links:hover {
-  color: #3664fc;
+  color: #f2ffa7 !important;
 }
 
 .footer_1--bottombar {
   border-top: 2px solid #a5a5a5;
+}
+
+.footerlogo {
+  width: 18rem;
+}
+
+.footer_title {
+  background-color: #02a0ff;
+  width: fit-content;
+  padding: .5rem !important;
+  font-weight: 600 !important;
+  font-size: 1.8rem !important;
+}
+
+.footer_2 {
+  background-color: #11153d !important;
+  color: #eee;
+}
+
+.footerbar {
+  background-color: #090a1b;
+  color: #eee;
 }
 
 .fecard {
@@ -908,7 +931,7 @@ tr:nth-child(odd) {
 
 .homehero {
   padding-bottom: 10rem;
-  background-image: linear-gradient(#FF6A5C, #df1d0bd7);
+  background-image: linear-gradient(#02a0ff, #0e8bdabe);
 }
 
 .homehero .homehero_nav {
@@ -1125,7 +1148,7 @@ tr:nth-child(odd) {
 }
 
 .brandhead {
-  padding: 8rem 0 !important;
+  padding: 6rem 0 !important;
   background-image: linear-gradient(#ff7a6e, #df1d0bd7);
 }
 
@@ -1134,7 +1157,7 @@ tr:nth-child(odd) {
 }
 
 .slidemainbrand {
-  margin-top: -11rem;
+  margin-top: -10rem;
 }
 
 .brandcards_title {
@@ -1281,6 +1304,39 @@ tr:nth-child(odd) {
 
 .aboutright {
   background-image: linear-gradient(#FF6A5C, #df1d0bd7) !important;
+}
+
+.conatct_bg1 {
+  background-image: linear-gradient(#029effbe, #02a0ff), url("../../images/contactpattern.jpg");
+  background-size: 20rem;
+  background-position-y: center;
+  background-position-x: right;
+  color: #fff;
+}
+
+.contact_bg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.178), rgba(255, 255, 255, 0.062)), url("../../images/contact.jpg");
+  background-size: 60rem;
+  background-position-y: center;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  z-index: -5000 !important;
+}
+
+.latestbtn {
+  background-color: #029effbe;
+  font-weight: 600;
+}
+
+.influnce_bg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.178), rgba(255, 255, 255, 0.253)), url("../../images/influnc.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.influnce_btn {
+  font-size: 1.7rem;
+  border-radius: 50%;
 }
 
 .boxtest3 {

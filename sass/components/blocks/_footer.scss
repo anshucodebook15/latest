@@ -4,17 +4,39 @@
 }
 
 .footer_1--links {
-  color: rgb(77, 77, 77);
+  color: rgb(216, 216, 216);
 }
 
 .footer_1--links:hover {
-  color: rgb(54, 100, 252);
+  color: #f2ffa7 !important;
 }
 
 .footer_1--bottombar {
   border-top: 2px solid rgb(165, 165, 165);
 }
 // end Footer Bar
+
+.footerlogo{
+  width: 18rem;
+}
+
+.footer_title{
+  background-color: #02a0ff;
+  width: fit-content;
+  padding: .5rem !important;
+  font-weight: 600 !important;
+  font-size: 1.8rem !important;
+}
+
+.footer_2{
+  background-color: rgb(17, 21, 61) !important;
+  color: #eee;
+}
+
+.footerbar{
+  background-color:rgb(9, 10, 27) ;
+  color: #eee;
+}
 
 @media screen and (max-width: 780px) {
 
